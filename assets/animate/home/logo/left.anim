@@ -1,0 +1,122 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "left",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 1.25,
+  "sample": 60,
+  "speed": 2,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "logo_character_2": {
+        "props": {
+          "position": [
+            {
+              "frame": 0.18333333333333332,
+              "value": [
+                -45,
+                193
+              ],
+              "curve": "circIn"
+            },
+            {
+              "frame": 1,
+              "value": [
+                380,
+                193
+              ]
+            },
+            {
+              "frame": 1.0833333333333333,
+              "value": [
+                370,
+                193
+              ]
+            }
+          ]
+        }
+      },
+      "logo_character_3": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                0,
+                89
+              ],
+              "curve": "circIn"
+            },
+            {
+              "frame": 1.0833333333333333,
+              "value": [
+                430,
+                89
+              ]
+            },
+            {
+              "frame": 1.1666666666666667,
+              "value": [
+                420,
+                89
+              ]
+            }
+          ]
+        }
+      },
+      "logo_character_6": {
+        "props": {
+          "position": [
+            {
+              "frame": 0.5,
+              "value": [
+                -28,
+                -158
+              ],
+              "curve": "circIn"
+            },
+            {
+              "frame": 1.1666666666666667,
+              "value": [
+                400,
+                -158
+              ]
+            },
+            {
+              "frame": 1.25,
+              "value": [
+                390,
+                -158
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "props": {
+      "skewX": [
+        {
+          "frame": 0,
+          "value": -20,
+          "curve": "quintIn"
+        },
+        {
+          "frame": 1,
+          "value": 0
+        }
+      ],
+      "opacity": [
+        {
+          "frame": 0,
+          "value": 0
+        },
+        {
+          "frame": 1,
+          "value": 255
+        }
+      ]
+    }
+  },
+  "events": []
+}

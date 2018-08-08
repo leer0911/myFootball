@@ -1,0 +1,130 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "rotate",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 2,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": "22",
+  "curveData": {
+    "props": {
+      "rotation": []
+    },
+    "paths": {
+      "light_2": {
+        "props": {
+          "rotation": [
+            {
+              "frame": 0,
+              "value": -167
+            },
+            {
+              "frame": 2,
+              "value": -99
+            }
+          ]
+        }
+      },
+      "light_3": {
+        "props": {
+          "rotation": [
+            {
+              "frame": 0,
+              "value": -135
+            },
+            {
+              "frame": 2,
+              "value": -113
+            }
+          ]
+        }
+      },
+      "light_4": {
+        "props": {
+          "rotation": [
+            {
+              "frame": 0,
+              "value": -70
+            },
+            {
+              "frame": 2,
+              "value": -169
+            }
+          ]
+        }
+      },
+      "light_6": {
+        "props": {
+          "rotation": [
+            {
+              "frame": 0,
+              "value": 46
+            },
+            {
+              "frame": 2,
+              "value": 80
+            }
+          ]
+        }
+      },
+      "light_5": {
+        "props": {
+          "rotation": [
+            {
+              "frame": 0,
+              "value": -83
+            },
+            {
+              "frame": 2,
+              "value": -47
+            }
+          ]
+        }
+      },
+      "light_1": {
+        "props": {
+          "rotation": [
+            {
+              "frame": 0,
+              "value": -114
+            },
+            {
+              "frame": 2,
+              "value": -177
+            }
+          ]
+        }
+      },
+      "light_7": {
+        "props": {
+          "rotation": [
+            {
+              "frame": 0,
+              "value": -146
+            },
+            {
+              "frame": 2,
+              "value": -155
+            }
+          ]
+        }
+      },
+      "light_8": {
+        "props": {
+          "rotation": [
+            {
+              "frame": 0,
+              "value": -72
+            },
+            {
+              "frame": 2,
+              "value": -137
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}
