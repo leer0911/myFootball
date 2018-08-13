@@ -1,0 +1,41 @@
+{
+  "appKey": "",
+  "appSecret": "",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.footBall",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "0",
+  "startScene": "5723e5ef-fc50-440e-bb82-21e57b836e22",
+  "title": "footBall",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "f726549a-6e90-45",
+  "zipCompressJs": true
+}
