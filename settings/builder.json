@@ -26,9 +26,9 @@
     "orientation": "portrait"
   },
   "renderMode": "0",
-  "startScene": "5723e5ef-fc50-440e-bb82-21e57b836e22",
+  "startScene": "2b73f512-824d-4e63-8e24-a5ce01647502",
   "title": "footBall",
-  "webOrientation": "auto",
+  "webOrientation": "landscape",
   "wechatgame": {
     "REMOTE_SERVER_ROOT": "",
     "appid": "wx6ac3f5090a6b99c5",
