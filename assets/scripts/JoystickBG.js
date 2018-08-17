@@ -41,11 +41,9 @@ cc.Class({
   onLoad: function() {
     // joy下的Game组件
     this._joyCom = this.node.parent.getComponent('Game');
-    const football = cc.find('football');
 
     // game组件下的player节点
     this._playerNode = this._joyCom.sprite;
-    this._fooball = football;
     if (this._joyCom.touchType == Common.TouchType.DEFAULT) {
       //对圆圈的触摸监听
       this._initTouchEvent();
@@ -79,20 +77,14 @@ cc.Class({
   _allDirectionsMove: function() {
     if (this._angle > 90 || this._angle < -90) {
       this._playerNode.scaleX = -1;
-      this._fooball.scaleX = -1;
     } else {
       this._playerNode.scaleX = 1;
-      this._fooball.scaleX = 1;
     }
-    this._playerNode.x +=
-      (Math.cos(this._angle * (Math.PI / 180)) * this._speed) / 4;
-    this._playerNode.y +=
-      (Math.sin(this._angle * (Math.PI / 180)) * this._speed) / 4;
-    this._fooball.x = this._playerNode.x;
-    this._fooball.y = this._playerNode.y - 45;
-    const Background = cc.find('Canvas/Background');
-    Background.x += Math.cos(this._angle * (Math.PI / 180)) * -this._speed * 2;
-    Background.y += Math.sin(this._angle * (Math.PI / 180)) * -this._speed * 2;
+    // this.speed = cc.p(100, 100);
+    // this.body = this._playerNode.getComponent(cc.RigidBody);
+    // this.body.linearVelocity = this.speed;
+    // this._playerNode.x += Math.cos(this._angle * (Math.PI / 180)) * this._speed;
+    // this._playerNode.y += Math.sin(this._angle * (Math.PI / 180)) * this._speed;
   },
 
   //计算两点间的距离并返回

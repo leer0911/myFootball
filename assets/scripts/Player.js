@@ -24,6 +24,7 @@ cc.Class({
       }
       animation.play('stand');
     });
+    this.node.touchBOXingPosition = cc.p(0, 0);
   },
   play() {
     const animation = this.getComponent(cc.Animation);
@@ -37,6 +38,9 @@ cc.Class({
     setTimeout(() => {
       animation.play('run');
     }, 500);
+  },
+  onBeginContact(contact, selfCollider, otherCollider) {
+    this.node.touchBOXingPosition = this.node.position;
   }
   // called every frame, uncomment this function to activate update callback
   // update: function (dt) {

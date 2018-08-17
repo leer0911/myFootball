@@ -1,41 +1,30 @@
-// Learn cc.Class:
-//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/class.html
-//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/class.html
-// Learn Attribute:
-//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/reference/attributes.html
-//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/reference/attributes.html
-// Learn life-cycle callbacks:
-//  - [Chinese] http://docs.cocos.com/creator/manual/zh/scripting/life-cycle-callbacks.html
-//  - [English] http://www.cocos2d-x.org/docs/creator/en/scripting/life-cycle-callbacks.html
-
 cc.Class({
-    extends: cc.Component,
+  extends: cc.Component,
 
-    properties: {
-        // foo: {
-        //     // ATTRIBUTES:
-        //     default: null,        // The default value will be used only when the component attaching
-        //                           // to a node for the first time
-        //     type: cc.SpriteFrame, // optional, default is typeof default
-        //     serializable: true,   // optional, default is true
-        // },
-        // bar: {
-        //     get () {
-        //         return this._bar;
-        //     },
-        //     set (value) {
-        //         this._bar = value;
-        //     }
-        // },
-    },
+  properties: {
+    maxSpeed: 500,
+    acceleration: 1500
+  },
 
-    // LIFE-CYCLE CALLBACKS:
+  // LIFE-CYCLE CALLBACKS:
 
-    // onLoad () {},
+  onLoad() {
+    this.body = this.getComponent(cc.RigidBody);
+    this.speed = cc.p(0, 0);
+  },
 
-    start () {
+  //   start() {},
 
-    },
-
-    // update (dt) {},
+  update(dt) {
+    // this.speed = this.body.linearVelocity;
+    // if (this.node.scaleX > 0) {
+    //   this.node.scaleX *= -1;
+    // }
+    // this.speed.x -= this.acceleration * dt;
+    // if (this.speed.x < -this.maxSpeed) {
+    //   this.speed.x = -this.maxSpeed;
+    // }
+    // this.body.linearVelocity = this.speed;
+  }
 });
+//
